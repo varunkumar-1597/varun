@@ -1,0 +1,1 @@
+(()=>{var n;(n=jQuery)((function(){n(".reset-btn").on("click",(function(){var a=document.querySelector(".varun_miusage_container");a.innerHTML="Loading .....",n.ajax({type:"GET",url:varun.ajax_url,data:{action:"varun_content"},success:function(n){a.innerHTML=n}})}))}))})();

@@ -1,0 +1,51 @@
+// Styles for the .varun_miusage container
+.varun_miusage {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin: 20px;
+    font-family: Arial, sans-serif;
+  
+    // Styles for the h1 element
+    h1 {
+      color: #333;
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+  
+    // Styles for the table element
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+  
+      // Styles for table headers (th)
+      th {
+        background-color: #333;
+        color: #fff;
+        text-align: left;
+        padding: 8px;
+      }
+  
+      // Styles for table rows (even and odd)
+      tr:nth-child(even) {
+        background-color: #f2f2f2;
+      }
+  
+      tr:nth-child(odd) {
+        background-color: #fff;
+      }
+  
+      // Styles for table cells (td)
+      td {
+        padding: 8px;
+        border: 1px solid #ddd;
+      }
+  
+      // Add hover effect to table rows
+      tr:hover {
+        background-color: #cfd8dc;
+      }
+    }
+  }
+  
